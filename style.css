@@ -1,0 +1,90 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #222;
+    color: #fff;
+    padding: 3em 1em 1em 1em;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.search-bar{
+    margin: 1em auto;
+    background: #3d383c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 0 1em;
+    color: #fff;
+}
+
+.search-bar input{
+    flex-grow: 1;
+    height: 100%;
+    padding: 0.5em 0;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.search-bar input::placeholder{
+    color: #b7b7b7;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.panels{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin: 8em 0 5em 0;
+}
+
+.panel{
+    background: #3b383b;
+    padding: 1.5em 1.8em 1.5em 1.8em;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.panel .material-symbols-outlined{
+    width: 1.6em;
+    height: 1.6em;
+    color: #111;
+    background: #fff82a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.panel h2{
+    margin: 1em 0 0.5em 0;
+}
+
+.panel p{
+    font-size: 0.9em;
+    line-height: 25px;
+    color: #ccc;
+    margin: 0;
+}
+
+.panel a{
+    display: inline-block;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.panel a:hover{
+    color: #fff82a;
+}
